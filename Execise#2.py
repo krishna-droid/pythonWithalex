@@ -40,7 +40,6 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(
         description="Download a video from a video hoster using yt-dlp."
     )
-
     parser.add_argument("--url", required=True, help="The video URL to download")
 
     args = parser.parse_args()
